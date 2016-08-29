@@ -1,3 +1,31 @@
 canvas {
+	float: left;
 	border: 1px solid #000;
+}
+#toolbar {
+	float: left;
+}
+#function-wrapper  {
+    background: lavenderblush;
+}
+#function-wrapper  td {
+	cursor: pointer;
+	border: 1px solid #000;
+	box-shadow: 1px 1px rgba(0,0,0,0.5);
+}
+#color-wrapper td {
+	width: 50px;
+	height: 50px;
+}
+#status {
+	clear:both;
+}
+.indigo {
+	background-color: rgb(111,0,255);
+}
+.yellow {
+	background-color: rgb(255,255,0);
+}
+.magenta {
+	background-color: rgb(255,0,255);
 }
